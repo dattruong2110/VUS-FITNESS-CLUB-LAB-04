@@ -1,0 +1,85 @@
+body {
+  background-color: #ffff99;
+}
+
+.container {
+  margin: auto;
+  width: 80%;
+}
+
+header {
+  margin: 10px 0 20px;
+  text-align: center;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 12px 12px 12px #404040;
+}
+
+nav {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1.25em;
+  font-weight: bold;
+  text-align: center;
+  margin: 10px 0;
+}
+
+nav ul {
+  border-top: 5px solid #ffffff;
+  border-bottom: 5px solid #ffffff;
+  border-radius: 20px;
+}
+
+nav li {
+  list-style-type: none;
+  border-radius: 2em;
+  padding: 15px;
+}
+
+a {
+  color: blue;
+}
+
+a:hover {
+  color: purple;
+}
+
+.menu {
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  display: inline-block;
+}
+
+main {
+  display: block;
+  background-color: #ffffff;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 1em;
+  margin: 20px 0 10px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 12px 12px 12px #404040;
+}
+
+.courses {
+  text-align: center;
+}
+
+.equip {
+  float: left;
+  margin-right: 20px;
+}
+
+.items {
+  /* display: block; */
+  margin-bottom: 110px;
+  list-style-position: inside;
+}
+
+footer {
+  font-size: 0.7em;
+  text-align: center;
+  margin-top: 20px;
+}
